@@ -1,0 +1,137 @@
+/* IMPOSTAZIONI GENERALI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html { background-color: black;}
+body { background-image: url(../img/sfondo.png);
+    width: 500px;
+    height: 100%;
+   margin: 0 auto 0;}
+    
+/* HEADER */
+header { padding: 20px;
+}
+ #header-container{
+    width: 100%;
+    height: 100%;
+    background-color: #026d88;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 0px;
+}
+#header-container h2{
+    color: #ebffff;
+ }
+ #epicode-logo + h2{
+    padding: 30px 0;
+ }
+  h2 { font-size: 20px;}
+
+#epicode-logo {
+  width: 300px;
+}
+
+/* MAIN */
+main {
+    padding: 20px;
+  
+    }
+    #main-container { width: 100%;
+        height: 100%;padding: 20px;
+    background-color: white;
+box-shadow: 0px 0px 4px 0px;}
+
+
+    iframe {
+        border-radius: 20px;
+        
+    }
+     p{
+        padding: 10px 0;  
+    }
+    ul,ol {
+        padding: 0 20px;
+    }
+    span {
+        border: #b1b4b0 2px solid;
+        border-radius: 3px;
+    }
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+table { margin: 0 auto;
+    border-bottom: #026d88 solid 3px;
+
+}
+th {
+    padding: 20px;
+}
+table tr:first-of-type {color: white;
+    background-color: blue;
+}
+table tr:nth-of-type(3) { background-color: #f2f2f2;}
+table tr:nth-of-type(5)  {background-color: #f2f2f2;
+
+}
+/* FORM */
+#novita-container {
+    margin: 40px 0;
+    background-image: linear-gradient( to top left, #e2e2e2,#fefefe);
+    box-shadow: 0px 0px 4px 0px;
+    height: 100%;
+}
+#novita-container h2 {
+    text-align: center;
+   padding: 30px 0 30px;
+   font-size:30px ;
+  
+}
+#novita-container p{
+    padding: 20px 20px ;
+}
+#form-container {
+  width: 100%;
+  text-align: center;
+  padding: 0 10px 20px;
+  
+}
+input { width: 65%;} 
+button {width: 30%; background-color: #3f68c6;
+    color: white;
+}
+
+/* ELEMENTI NELL' ASIDE */
+#correlati-container {
+    margin: 40px 0;
+    background-image: linear-gradient( to top left, #e2e2e2,#fefefe);
+    box-shadow: 0px 0px 4px 0px;
+   
+}
+#correlati-container a {
+    padding: 20px;
+}
+#correlati-container p:nth-child(2) {
+    padding-left: 20px;
+}
+#correlati-container p:nth-child(3) {
+text-align: right;
+padding: 20px;
+}
+/* FOOTER */
+footer { padding: 20px;
+;}
+#footer-container {width: 100%;
+    height: 100%;padding: 30px;
+background-image: linear-gradient(#095373, #373335);
+box-shadow: 0px 0px 4px 0px;}
+#footer-container p{ 
+    color: white;
+}
+#footer-container a{
+    color: #fc01ff;
+}
+#footer-container p:first-of-type {
+    text-align: center;
+}
